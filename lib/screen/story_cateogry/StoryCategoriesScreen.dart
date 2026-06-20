@@ -62,7 +62,7 @@ class _StoryCategoryScreenState extends State<StoryCategoryScreen> {
         elevation: 2,
       ),
       body: loading
-          ? const Center(child: CircularProgressIndicator(color: Color.fromARGB(255, 252, 252, 252)))
+          ? const Center(child: CircularProgressIndicator(color: Color.fromARGB(255, 229, 74, 74)))
           : GridView.builder(
               padding: const EdgeInsets.all(16),
               itemCount: categories.length,
